@@ -18,6 +18,15 @@ function dividir (num1, num2) {
     return num1 / num2
 }
 
+//Función para sacar la factorial de un número
+function factorial (num) {
+    let res = 1;
+    for (let i = 1; i <= num; i++) {
+        res *= i
+    }
+    return res
+}
+
 // Función principal del programa
 function calculadora() {
     var opcion = prompt(
