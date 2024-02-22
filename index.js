@@ -32,6 +32,11 @@ function exponente(num1, num2) {
     return num1 ** num2
 }
 
+//Función para sacar la raiz cuadrada
+function raizCuadrada(num) {
+    return Math.sqrt(num)
+}
+
 // Función principal del programa
 function calculadora() {
     var opcion = prompt(
