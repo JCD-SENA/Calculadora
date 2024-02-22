@@ -27,6 +27,11 @@ function factorial (num) {
     return res
 }
 
+//Función para calcular el exponente entre dos números
+function exponente(num1, num2) {
+    return num1 ** num2
+}
+
 // Función principal del programa
 function calculadora() {
     var opcion = prompt(
@@ -35,7 +40,7 @@ function calculadora() {
     var num1 = parseFloat(prompt("Ingrese el primer número:"));
     var num2, resultado;
 
-    if (opcion !== "5" && opcion !== "7") {
+    if (opcion !== "5" && opcion !== "7" && opcion !== "6") {
         num2 = parseFloat(prompt("Ingrese el segundo número:"));
     } 
 
