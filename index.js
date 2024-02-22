@@ -2,8 +2,13 @@
 function sumar(num1, num2) {
     return num1 + num2;
 }
+
+// Función para restar dos números
+function restar(num1, num2) {
+    return num1 - num2
+}
   
-  // Función principal del programa
+// Función principal del programa
 function calculadora() {
     var opcion = prompt(
         "Elija una opción:\n1. Suma\n2. Resta\n3. Multiplicación\n4. División\n5. Factorial\n6. Exponente\n7. Raíz cuadrada"
